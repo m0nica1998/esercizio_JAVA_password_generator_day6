@@ -28,5 +28,6 @@ public class passGenerator {
 	 int mese = scan.nextInt();
 	 System.out.println("Inserisci il tuo anno di nascita (numero)");
 	 int anno = scan.nextInt();	 
+	 System.out.println(nome+ "-"+cognome+"-"+colore+"-"+(giorno+mese+anno));
  }
 }
